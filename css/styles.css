@@ -1,0 +1,190 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 5rem;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 3% 15% 7% 15%;
+}
+
+body {
+  font-family: "Montserrat"
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+}
+
+.nav-item {
+  padding-left: 1rem;
+  padding-right: 1.1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-icon {
+  text-align: center;
+}
+
+.f-icon {
+  padding: 2rem 0 2rem 0;
+  font-size: 4.5rem;
+  color: #ef8172;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 550;
+  color: black;
+  padding-top: 1.5rem;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Montserrat-Light";
+  font-weight: lighter;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.f-icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.dog {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.lady {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  padding-bottom: 3%;
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-control-prev {
+  width: 4%;
+}
+
+.carousel-control-next {
+  width: 4%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width:1025px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 7%;
+}
+
+.last-button {
+  padding-right: 4px;
+}
+
+.true-love {
+  color: #fff;
+  font-size: 3.6rem;
+  margin-bottom: 5%;
+}
+
+#footer {
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+.footer-section {
+  text-align: center;
+  color: #fff;
+}
+
+.foot-icon {
+  padding-left: 1.5%;
+  padding-right: 1.5%
+}
+
+a {
+  color: black;
+}
